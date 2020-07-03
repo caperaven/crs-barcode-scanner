@@ -1,0 +1,39 @@
+<style>
+    crs-barcode-scanner {
+        display: block;
+        width: max-content;
+        height: max-content;
+    }
+
+    crs-barcode-scanner #result {
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    crs-barcode-scanner .toolbar {
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    crs-barcode-scanner button {
+        margin: 0 0.5rem;
+    }
+
+    crs-barcode-scanner .error {
+        color: red;
+    }
+</style>
+
+<div class="container">
+    <div>
+        <img src="/image/barcode1.png" />
+    </div>
+
+    <div id="result">No Scan Result</div>
+
+    <div class="toolbar">
+        <button id="btnStart">Start</button>
+    </div>
+</div>
